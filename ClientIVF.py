@@ -163,7 +163,7 @@ class Client:
 			traceback.print_exc(file=sys.stdout)
 			print('-'*60)
 
-		self.label.configure(image = photo, height=288)
+		self.label.configure(image = photo, height=720)
 		self.label.image = photo
 
 	def connectToServer(self):
